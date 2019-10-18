@@ -369,6 +369,7 @@ textarea:focus {
     }
     #menu {
         width: 100vw;
+        background-color: #cdd2de;
     }
     #menu ul {
         justify-content: top !important;
@@ -382,6 +383,7 @@ textarea:focus {
     #menu ul li a {
         padding: 0px, 1%, 0px, 1% !important;
         font-size: 6vw;
+        border: ridge;
     }
     .otherslinkmenu {
         padding-top: 2% !important;
