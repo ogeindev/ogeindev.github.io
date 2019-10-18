@@ -88,7 +88,6 @@ body {
 h2 {
     color: #a3e0ff;
     font-size: 4vw;
-    margin-bottom: 50px;
     margin-top: 50px;
     text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
     -webkit-text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
@@ -118,7 +117,7 @@ h2 {
 
 #profile {
     height: auto;
-    background-color: #b5c3e4;
+    background-color: #cdd2de;
 }
 
 #profile p {
@@ -220,14 +219,15 @@ textarea:focus {
     padding: 5%;
     float: left;
     width: 81vw;
-    background-color: #b5c3e4;
+    background-color: #cdd2de;
+    margin-bottom: 50px;
 }
 
 #contacto .contenido div h1 {
     font-size: 3vw;
     text-indent: 1cm;
     margin-bottom: 0.8cm;
-    border: inset;
+    border: outset;
 }
 
 #contacto .contenido div label {
@@ -262,8 +262,8 @@ textarea:focus {
 #footer {
     font-size: 1vw;
     font-weight: bolder;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     text-align: center;
 }
 
@@ -278,12 +278,16 @@ textarea:focus {
     text-align: center;
 }
 
+#footer .contenido h2 {
+    text-align: center;
+}
+
 
 /* Proyect */
 
 .proyect {
     height: auto;
-    background-color: #b5c3e4;
+    background-color: #cdd2de;
 }
 
 .proyect p {
@@ -345,10 +349,26 @@ textarea:focus {
     }
 }
 
-@media (max-width:584px) {
+@media (max-width:610px) {
+    #container {
+        margin: 13% auto;
+        width: 100vw;
+    }
+    #contacto .contenido div h1 {
+        width: 80vw;
+    }
+    #contacto .contenido div {
+        width: 90vw;
+    }
+    #slider {
+        width: 100vw;
+    }
     .logo {
         padding: 0 !important;
         display: none;
+    }
+    #menu {
+        width: 100vw;
     }
     #menu ul {
         justify-content: top !important;
@@ -379,6 +399,9 @@ textarea:focus {
     #profile p {
         display: block;
         padding-left: 4%;
+    }
+    .proyect ul {
+        padding-right: 2vw;
     }
 }
 
