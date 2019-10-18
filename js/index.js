@@ -1,4 +1,4 @@
-alert('BUILDING')
+// alert('BUILDING')
 $(document).ready(main);
 
 function main() {
