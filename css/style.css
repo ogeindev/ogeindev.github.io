@@ -106,7 +106,7 @@ h2 {
 
 .contenido p {
     font-size: 2vw;
-    padding: 40px;
+    padding: 5vw;
     text-align: justify;
 }
 
@@ -117,14 +117,14 @@ h2 {
 
 #profile {
     height: auto;
-    background-color: #cdd2de;
+    background-color: #ffffff;
 }
 
 #profile p {
     width: 48%;
     display: inline-block;
     padding-left: 4%;
-    text-indent: 4%;
+    text-indent: 5vw;
 }
 
 #profile img {
@@ -140,7 +140,7 @@ h2 {
 }
 
 #formulario {
-    background-color: #d2d2d2;
+    background-color: #ffffff;
     padding: 10%;
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5);
@@ -219,21 +219,19 @@ textarea:focus {
     padding: 5%;
     float: left;
     width: 81vw;
-    background-color: #cdd2de;
+    background-color: #ffffff;
     margin-bottom: 50px;
 }
 
 #contacto .contenido div h1 {
     font-size: 3vw;
-    text-indent: 1cm;
+    text-indent: 5vw;
     margin-bottom: 0.8cm;
-    border: outset;
 }
 
-#contacto .contenido div label {
+#contacto .contenido div h2 {
     font-size: 2vw;
     font-weight: bold;
-    text-decoration: underline;
 }
 
 #contacto .contenido p {
@@ -249,11 +247,22 @@ textarea:focus {
 }
 
 #contacto .contenido a {
-    color: #24607f;
+    color: #000000;
 }
 
 #contacto .contenido a:hover {
     color: #a3e0ff;
+}
+
+.h2contact h2 {
+    width: 20%;
+    display: inline-block;
+    background-color: #187eb6;
+    border-radius: 50px 50px 50px 50px;
+    text-align-last: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
 }
 
 
@@ -287,7 +296,7 @@ textarea:focus {
 
 .proyect {
     height: auto;
-    background-color: #cdd2de;
+    background-color: #ffffff;
 }
 
 .proyect p {
@@ -298,13 +307,13 @@ textarea:focus {
     -webkit-border-radius: 0% 0% 5% 5%;
     -moz-border-radius: 0% 0% 5% 5%;
     -o-border-radius: 0% 0% 5% 5%;
-    text-indent: 1cm;
+    text-indent: 5vw;
 }
 
 .proyect h4 {
     font-size: 2vw;
     padding: 0%;
-    text-indent: 1cm;
+    text-indent: 5vw;
     color: #5a5a5a;
     padding-right: 5%;
     text-align: justify;
@@ -322,7 +331,7 @@ textarea:focus {
 
 .proyect a {
     text-decoration: none;
-    color: #5447fd;
+    color: #4072cf;
 }
 
 .proyect a:hover {
@@ -334,7 +343,7 @@ textarea:focus {
         height: auto;
     }
     #profile p {
-        width: 90%;
+        width: 80%;
         display: inline-block;
     }
     #profile img {
@@ -401,7 +410,8 @@ textarea:focus {
     }
     #profile p {
         display: block;
-        padding-left: 4%;
+        padding-left: 11vw;
+        padding-right: 8vw;
     }
     .proyect ul {
         padding-right: 2vw;
