@@ -1,0 +1,11 @@
+.game img{
+    width: 100%;
+}
+
+#distance{
+    color: currentColor;
+    background-color: royalblue;
+    font-family: monospace;
+    text-align: center;
+    font-style: italic;
+}

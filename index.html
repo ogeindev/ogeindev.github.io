@@ -5,8 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GitHub Page</title>
+    <title>Bienvenido!</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/Proyect.css">
+    <link rel="stylesheet" href="css/game/game.css">
 </head>
 
 <body>
@@ -18,8 +26,8 @@
                 <li class="iniciolinkmenu">
                     <a href="#inicio" class="logo"></a>
                 </li>
+                <li class="otherslinkmenu"><a href="#faq">Game Zone</a></li>
                 <li class="otherslinkmenu"><a href="#contacto">Contact</a></li>
-                <li class="otherslinkmenu"><a href="#faq">Others</a></li>
             </ul>
         </div>
 
@@ -30,14 +38,14 @@
         </div>
 
         <div id="servicios">
-            <h2>&nbsp;Hello! My name is Fernando</h2>
+            <h2>&nbsp;Fernando López Mellet</h2>
             <div class="contenido" id="profile">
                 <p>
-                    I am a frontend web designer with backend knowledge and great learning skills. Since I discovered programming use to work in my own projects where I I learn as much I enjoy for a time which flies. On my opinion, my psychology grade helps me quite a lot
-                    to understand and improve my programming skills.
-                    <br><br> &nbsp; &nbsp;I began my career as a psychologist where I deeply understood how human mind is able to think, and the complex process to conflicts solving. Over 2019 I realized that programming was quite similar: problems solutions
-                    from initial parameters and I discovered I enjoy learning from failures and I delighted every success.
-                    <br><br> &nbsp; &nbsp;Thanks you for reading this text and I hope you find out your passion in your life as well as I did. Otherwise, keep moving forward and never give up. <br><br> &nbsp; &nbsp;Greetings!
+                    I am a full stack developer with great learning skills. Since I discovered programming I use it to work in my own projects where I learn as much I enjoy for a time which flies. On my opinion, my psychology grade helps me quite a lot
+                    to understand programmer logic and improve my programming skills.
+                    <br><br> &nbsp; &nbsp;I began my career as a psychologist where I deeply understood how human mind is able to think, and the complex process to solve conflicts. Over 2019 I realized that programming was quite similar: problems solutions
+                    from initial parameters and I discovered I enjoy learning from failures and  celebrating every success. Now I am working as a programmer and thanks to this, I have further reinforced my idea that this is my profession.
+                    <br><br> &nbsp; &nbsp;Thanks you for reading me and I hope you find out your passion in your life as well as I did. Otherwise, keep moving forward and never give up! <br><br> &nbsp; &nbsp;Greetings!
 
                 </p>
 
@@ -51,20 +59,23 @@
             <h2>&nbsp;My projects</h2>
             <div class="contenido proyect">
                 <p>
-                    This is the place where I upload my projects and I can show you my projects. In a near future I will develop a PHP (with Symfony) and Python (with Django) project. I will also use Postgress or Sqlite3 to improve my skills and to test myself with unknown
-                    technologies.
+                    This is the place where I upload my projects and I can show you my projects. 
                 </p>
                 <ul>
                     <li>
-                        <a href="https://github.com/ogeindev/PsiconsultaVuejsMongodbNodejs">
+                        <a href="https://github.com/ogeindev/PsiconsultaVuejsMongodbNodejs">Psiconsulta</a>
                             <h4>The first project which I started with, I used MongoDB, VueJS and NodeJS. To sum up, this is an app where you can register yourself and use these credential to login, then you could look for other users through two categories
                                 (with a select structure): mental disorder (6 available options) or patient/therapist. I would like to improve it with some changes I already have in mind: user communication through webcam. In any other case, I continued
                                 this proyect into another with a different perspective.</h4>
                     </li>
                     <li>
-                        <a href="https://github.com/ogeindev/WhatAboutYou">Whataboutyou (BUILDING)</a>
+                        <a href="https://github.com/ogeindev/WhatAboutYou">Whataboutyou</a>
                         <h4>This is my current project, where I continued the last one using mysql instead mongoDB. I created extra tools and functionalities, as an example you can find an article, forum, webcam, chat, private messaging sections and even
                             likes, conterviews, comments and some others. I hope to finish it soon!</h4>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ogeindev">GitHub Repository</a>
+                        
                     </li>
                 </ul>
             </div>
@@ -72,9 +83,10 @@
         </div>
 
         <div id="faq">
-            <h2>&nbsp;Others</h2>
-            <div class="contenido">
-                <p>Building...</p>
+            <h2>&nbsp;Game Zone</h2>
+            <div class="contenido game">
+                <p id="distance"></p>
+                <img id="mapGame" src="img/game/tesoroMapa.jpg">
 
 
             </div>
@@ -101,22 +113,6 @@
 
 
             </div>
-            <!-- <div id="formulario">
-                <form action="POST" action="https://forms.pre">
-                    <label>Nombre:</label><br>
-                    <input type="text" class="campo" id="tfNombre">
-                    <br>
-                    <label>Correo Electrónico:</label><br>
-                    <input type="text" class="campo" id="tfCorreo">
-                    <br>
-                    <label>Asunto:</label><br>
-                    <input type="tfMensaje" id="tfAsunto" class="campo" id="tfNombre">
-                    <br>
-                    <label>Mensaje:</label><br>
-                    <textarea id="tfMensaje" cols="30" rows="10"></textarea><br>
-                    <input type="submit" value="Enviar formulario!" class="boton">
-                </form>
-            </div> -->
         </div>
 
         <div id="footer">
@@ -129,6 +125,9 @@
 
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/helpers/helper.js"></script>
+    <script src="js/game/game.js"></script>
+    
 </body>
 
 </html>

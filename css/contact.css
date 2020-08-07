@@ -1,0 +1,56 @@
+/* contact */
+
+.contcontact {
+    height: auto;
+}
+
+#contacto .contenido div {
+    height: auto;
+    padding: 5%;
+    float: left;
+    width: 81vw;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+#contacto .contenido div h1 {
+    font-size: 3vw;
+    text-indent: 5vw;
+    margin-bottom: 0.8cm;
+}
+
+#contacto .contenido div h2 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#contacto .contenido p {
+    font-size: 2vw;
+    padding: 1%;
+    /* padding-bottom: 1%;
+    margin-bottom: -1%; */
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-weight: bold;
+    background-color: #82a7ec;
+}
+
+#contacto .contenido a {
+    color: #000000;
+}
+
+#contacto .contenido a:hover {
+    color: #a3e0ff;
+}
+
+.h2contact h2 {
+    width: 20%;
+    display: inline-block;
+    background-color: #187eb6;
+    border-radius: 50px 50px 50px 50px;
+    text-align-last: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+}

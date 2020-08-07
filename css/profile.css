@@ -1,0 +1,23 @@
+#profile {
+    height: auto;
+    background-color: #ffffff;
+}
+
+#profile p {
+    width: 48%;
+    display: inline-block;
+    padding-left: 4%;
+    text-indent: 5vw;
+}
+
+#profile img {
+    width: 36%;
+    height: auto;
+    display: inline-block;
+    padding: 6% 0% 11% 5%;
+    vertical-align: top;
+    border-radius: 70% !important;
+    -webkit-border-radius: 70%!important;
+    -moz-border-radius: 70% !important;
+    -o-border-radius: 70%!important;
+}

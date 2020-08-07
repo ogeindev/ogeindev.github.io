@@ -1,0 +1,24 @@
+/* footer */
+
+#footer {
+    font-size: 1vw;
+    font-weight: bolder;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+
+#footer .contenido {
+    height: auto;
+}
+
+#footer .contenido p {
+    background-color: #6786e1;
+    font-family: monospace;
+    font-size: 3vw;
+    text-align: center;
+}
+
+#footer .contenido h2 {
+    text-align: center;
+}

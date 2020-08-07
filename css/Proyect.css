@@ -1,0 +1,45 @@
+/* Proyect */
+
+.proyect {
+    height: auto;
+    background-color: #ffffff;
+}
+
+.proyect p {
+    font-weight: bold;
+    text-align: justify;
+    background-color: #82a7ec;
+    border-radius: 0% 0% 5% 5%;
+    -webkit-border-radius: 0% 0% 5% 5%;
+    -moz-border-radius: 0% 0% 5% 5%;
+    -o-border-radius: 0% 0% 5% 5%;
+    text-indent: 5vw;
+}
+
+.proyect h4 {
+    font-size: 2vw;
+    padding: 0%;
+    text-indent: 5vw;
+    color: #5a5a5a;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.proyect ul {
+    padding-bottom: 9vh;
+}
+
+.proyect ul li {
+    list-style: none;
+    font-size: 4vw;
+    padding: 1vw;
+}
+
+.proyect a {
+    text-decoration: none;
+    color: #4072cf;
+}
+
+.proyect a:hover {
+    color: #82a7ec;
+}
